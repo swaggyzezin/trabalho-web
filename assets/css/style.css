@@ -1,0 +1,111 @@
+/* colocando uma fonte padrão */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", system-ui;
+}
+
+/* estilizando o cabeçalho */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* class para quando um item do cabeçalho estiver ativo */
+
+.active {
+    color: #fff;
+    background-color: #9a0090;
+    border-radius: 20px;
+}
+
+/* estilizando a seção sobre mim */
+
+.sobremim {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.sobremim img {
+    width: 700px;
+    height: 700px;
+    margin-right: 20px;
+    margin-top: -200px;
+}
+
+.sobremim .conteudo {
+    width: 30%;
+}
+
+.sobremim h1 {
+    text-align: center;
+}
+
+/* estilizando a seção formação */
+
+.formacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formacao h1 {
+    text-align: center;
+}
+
+/* estilizando a seção portifólio */
+
+.portifolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.portifolio h1 {
+    text-align: center;
+}
+
+/* estilizando a seção contato */
+
+.contato {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contato h1 {
+    text-align: center;
+}
+
+.contato div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
